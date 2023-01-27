@@ -1,34 +1,34 @@
 {
-    "name": "laravel-enso/people",
+    "name": "cgdsoftware/people",
     "description": "Person management dependency for Laravel Enso",
     "keywords": [
-        "laravel-enso",
+        "cgdsoftware",
         "people",
         "person-management"
     ],
-    "homepage": "https://github.com/laravel-enso/People",
+    "homepage": "https://github.com/cgdsoftware/People",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Adrian Ocneanu",
             "email": "aocneanu@gmail.com",
-            "homepage": "https://laravel-enso.com",
+            "homepage": "https://cgdsoftware.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "laravel-enso/addresses": "^5.0",
-        "laravel-enso/core": "^8.0",
-        "laravel-enso/dynamic-methods": "^2.0",
-        "laravel-enso/enums": "^2.0",
-        "laravel-enso/forms": "^4.0",
-        "laravel-enso/helpers": "^2.0",
-        "laravel-enso/migrator": "^2.0",
-        "laravel-enso/rememberable": "^3.0",
-        "laravel-enso/searchable": "^2.1",
-        "laravel-enso/track-who": "^2.0",
-        "laravel-enso/tables": "^4.0"
+        "cgdsoftware/addresses": "^5.0",
+        "cgdsoftware/core": "^8.0",
+        "cgdsoftware/dynamic-methods": "^2.0",
+        "cgdsoftware/enums": "^2.0",
+        "cgdsoftware/forms": "^4.0",
+        "cgdsoftware/helpers": "^2.0",
+        "cgdsoftware/migrator": "^2.0",
+        "cgdsoftware/rememberable": "^3.0",
+        "cgdsoftware/searchable": "^2.1",
+        "cgdsoftware/track-who": "^2.0",
+        "cgdsoftware/tables": "^4.0"
     },
     "autoload": {
         "psr-4": {
