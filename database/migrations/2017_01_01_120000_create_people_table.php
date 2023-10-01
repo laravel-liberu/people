@@ -8,6 +8,7 @@ return new class extends Migration
 {
     public function up()
     {
+        if (!Schema::hasTable('people')) {
         Schema::create('people', function (Blueprint $table) {
             $table->increments('id');
 
@@ -34,6 +35,7 @@ return new class extends Migration
         });
 
         Schema::table('users', fn (Blueprint $table) => ($table->foreign('person_id')->references('id')->on('people')));
+    }
     }
 
     public function down()
