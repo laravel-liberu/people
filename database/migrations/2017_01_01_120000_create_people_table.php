@@ -10,7 +10,7 @@ return new class extends Migration
     {
         if (!Schema::hasTable('people')) {
         Schema::create('people', function (Blueprint $table) {
-            $table->increments('id');
+            $table->id();
 
             $table->string('name')->index();
             $table->string('appellative')->index()->nullable();
@@ -25,10 +25,10 @@ return new class extends Migration
 
             $table->text('notes')->nullable();
 
-            $table->integer('created_by')->unsigned()->index()->nullable();
+            $table->unsignedBitInteger('created_by')->index()->nullable();
             $table->foreign('created_by')->references('id')->on('users');
 
-            $table->integer('updated_by')->unsigned()->index()->nullable();
+            $table->unsignedBitInteger('updated_by')->index()->nullable();
             $table->foreign('updated_by')->references('id')->on('users');
 
             $table->timestamps();
