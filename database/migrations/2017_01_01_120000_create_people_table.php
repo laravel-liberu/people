@@ -25,10 +25,10 @@ return new class extends Migration
 
             $table->text('notes')->nullable();
 
-            $table->unsignedBitInteger('created_by')->index()->nullable();
+            $table->unsignedBigInteger('created_by')->index()->nullable();
             $table->foreign('created_by')->references('id')->on('users');
 
-            $table->unsignedBitInteger('updated_by')->index()->nullable();
+            $table->unsignedBigInteger('updated_by')->index()->nullable();
             $table->foreign('updated_by')->references('id')->on('users');
 
             $table->timestamps();
