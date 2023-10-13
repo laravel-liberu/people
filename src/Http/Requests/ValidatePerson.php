@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\People\Http\Requests;
+namespace LaravelLiberu\People\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
-use LaravelEnso\Helpers\Traits\FiltersRequest;
+use LaravelLiberu\Helpers\Traits\FiltersRequest;
 
 class ValidatePerson extends FormRequest
 {

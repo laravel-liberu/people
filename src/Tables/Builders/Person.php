@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\People\Tables\Builders;
+namespace LaravelLiberu\People\Tables\Builders;
 
 use Illuminate\Database\Eloquent\Builder;
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\People\Models\Person as Model;
-use LaravelEnso\Tables\Contracts\CustomFilter;
-use LaravelEnso\Tables\Contracts\Table;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\People\Models\Person as Model;
+use LaravelLiberu\Tables\Contracts\CustomFilter;
+use LaravelLiberu\Tables\Contracts\Table;
 
 class Person implements Table, CustomFilter
 {

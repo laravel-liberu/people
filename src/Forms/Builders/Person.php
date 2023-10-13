@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\People\Forms\Builders;
+namespace LaravelLiberu\People\Forms\Builders;
 
-use LaravelEnso\Forms\Services\Form;
-use LaravelEnso\People\Models\Person as Model;
+use LaravelLiberu\Forms\Services\Form;
+use LaravelLiberu\People\Models\Person as Model;
 
 class Person
 {

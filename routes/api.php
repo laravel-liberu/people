@@ -1,15 +1,15 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\People\Http\Controllers\Create;
-use LaravelEnso\People\Http\Controllers\Destroy;
-use LaravelEnso\People\Http\Controllers\Edit;
-use LaravelEnso\People\Http\Controllers\ExportExcel;
-use LaravelEnso\People\Http\Controllers\InitTable;
-use LaravelEnso\People\Http\Controllers\Options;
-use LaravelEnso\People\Http\Controllers\Store;
-use LaravelEnso\People\Http\Controllers\TableData;
-use LaravelEnso\People\Http\Controllers\Update;
+use LaravelLiberu\People\Http\Controllers\Create;
+use LaravelLiberu\People\Http\Controllers\Destroy;
+use LaravelLiberu\People\Http\Controllers\Edit;
+use LaravelLiberu\People\Http\Controllers\ExportExcel;
+use LaravelLiberu\People\Http\Controllers\InitTable;
+use LaravelLiberu\People\Http\Controllers\Options;
+use LaravelLiberu\People\Http\Controllers\Store;
+use LaravelLiberu\People\Http\Controllers\TableData;
+use LaravelLiberu\People\Http\Controllers\Update;
 
 Route::middleware(['api', 'auth', 'core'])
     ->prefix('api/administration/people')

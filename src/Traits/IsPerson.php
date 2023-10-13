@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\People\Traits;
+namespace LaravelLiberu\People\Traits;
 
 trait IsPerson
 {

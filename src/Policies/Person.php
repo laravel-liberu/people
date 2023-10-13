@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\People\Policies;
+namespace LaravelLiberu\People\Policies;
 
-use LaravelEnso\People\Models\Person as Model;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\People\Models\Person as Model;
+use LaravelLiberu\Users\Models\User;
 
 class Person
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\People;
+namespace LaravelLiberu\People;
 
-use LaravelEnso\People\Models\Person;
-use LaravelEnso\Searchable\SearchServiceProvider as ServiceProvider;
+use LaravelLiberu\People\Models\Person;
+use LaravelLiberu\Searchable\SearchServiceProvider as ServiceProvider;
 
 class SearchServiceProvider extends ServiceProvider
 {

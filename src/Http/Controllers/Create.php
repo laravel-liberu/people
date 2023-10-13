@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\People\Http\Controllers;
+namespace LaravelLiberu\People\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\People\Forms\Builders\Person;
+use LaravelLiberu\People\Forms\Builders\Person;
 
 class Create extends Controller
 {

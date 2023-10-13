@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\People\Database\Factories;
+namespace LaravelLiberu\People\Database\Factories;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Factories\Factory;
-use LaravelEnso\People\Models\Person;
+use LaravelLiberu\People\Models\Person;
 
 class PersonFactory extends Factory
 {

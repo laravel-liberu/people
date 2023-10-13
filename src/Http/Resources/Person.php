@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\People\Http\Resources;
+namespace LaravelLiberu\People\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\Facades\Config;
